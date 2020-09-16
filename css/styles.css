@@ -109,7 +109,7 @@ nav {
     background-color: var(--accent-transparent);
 }
 #contact {
-    background-image: url("/assets/img/backgroundfooter.jpg");
+    background-image: url("assets/img/backgroundfooter.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
