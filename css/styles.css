@@ -1,7 +1,8 @@
 :root {
-    --accent: #fc5185;
-    --accent-transparent: #fc5184bd;
-    --secondary: #3fc1c9;
+    --accent: #EE15AB;
+    --accent-transparent: #ee15a9b6;
+    --secondary: #63BAAB;
+    --secondary-transparent: #63baabb4;
     --negro: #383536;
 }
 h2, h1 {
@@ -71,7 +72,7 @@ nav {
 }
 /***** PRODUCTOS *****/
 .portfolio .portfolio-item .portfolio-item-caption {
-    background-color: var(--accent-transparent);
+    background-color: var(--secondary-transparent);
 }
 /***** SERVICIOS *****/
 .content-section {

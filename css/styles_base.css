@@ -2469,12 +2469,12 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-.btn-primary {
+.btn-primary, button.mercadopago-button {
   color: #fff;
   background-color: var(--accent);
-  border-color: var(--accent);;
+  border-color: var(--accent);
 }
-.btn-primary:hover {
+.btn-primary:hover, button.mercadopago-button:hover {
   color: #fff;
   background-color: var(--secondary);
   border-color: var(--secondary);
