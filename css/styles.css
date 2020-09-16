@@ -1,12 +1,21 @@
 :root {
     --accent: #EE15AB;
     --accent-transparent: #ee15a9b6;
-    --secondary: #63BAAB;
-    --secondary-transparent: #63baabb4;
+    --secondary: #9077A8;
+    --secondary-transparent: #9077a8b7;
     --negro: #383536;
+    --fondo :#F4EAFC;
+    --main-font:'Balsamiq Sans', cursive;
+}
+body {
+    background-color: var(--fondo);
+}
+h1, h2, h3, h4, p, a {
+    font-family: var(--main-font);
 }
 h2, h1 {
     color: var(--accent);
+    padding: 0;
 }
 p {
     color: #666;
@@ -91,14 +100,8 @@ nav {
     font-size: 24px;
 }
 .bg-footer {
-    width: auto;
-    height: auto;
-    bottom: 25vh;
-    z-index: 2;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
     background-color: var(--accent-transparent);
 }
 #contact {

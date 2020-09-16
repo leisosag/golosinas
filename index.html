@@ -12,12 +12,11 @@
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- css -->
     <link href="css/styles_base.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
 
@@ -51,9 +50,9 @@
     <header class="masthead text-white text-center p-0">
         <div class="header-photo container-fluid d-flex align-items-center flex-column p-0">
             <picture>
-                <source media="(min-width:401px)" srcset="assets/img/background.jpg" />
-                <source media="(max-width:400px)" srcset="assets/img/background.jpg" />
-                <img src="assets/img/background.jpg" />
+                <source media="(min-width:401px)" srcset="assets/img/background-big.jpg" />
+                <source media="(max-width:400px)" srcset="assets/img/background-tall.jpg" />
+                <img src="assets/img/background-small.jpg" />
             </picture>
             <div class="header-texto">
                 <h1 class="masthead-heading text-uppercase mb-5 p-0">Golosinas con onda</h1>
@@ -76,7 +75,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto1.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto1.png" alt="ramo de golosinas" />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
@@ -87,7 +86,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto2.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto2.png" alt="ramo de golosinas" />
                     </div>
                 </div>
                 <!-- Portfolio Item 3-->
@@ -98,7 +97,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto3.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto3.png" alt="balde de golosinas" />
                     </div>
                 </div>
                 <!-- Portfolio Item 4-->
@@ -109,7 +108,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto4.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto4.png" alt="diseño Mickey" />
                     </div>
                 </div>
                 <!-- Portfolio Item 5-->
@@ -120,7 +119,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto5.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto5.png" alt="diseño circulo" />
                     </div>
                 </div>
                 <!-- Portfolio Item 6-->
@@ -131,7 +130,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto6.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto6.png" alt="caja económica" />
                     </div>
                 </div>
                 <!-- Portfolio Item 7-->
@@ -142,7 +141,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto7.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto7.png" alt="caja explosiva" />
                     </div>
                 </div>
                 <!-- Portfolio Item 8-->
@@ -153,7 +152,7 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/producto8.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/producto8.png" alt="caja explosiva" />
                     </div>
                 </div>
             </div>
@@ -198,11 +197,11 @@
             </div>
         </div>
     </section>
-
     <!-- Contact Section-->
     <section class="page-section mb-0" id="contact">
         <div class="container bg-footer">
             <!-- Contact Section Heading-->
+            <h2 class="text-center text-white text-uppercase">Te quedó alguna duda?</h2>
             <h2 class="text-center text-white text-uppercase mb-5">No dudes en consultar</h2>
             <!-- Contact Section Content-->
             <div class="row mt-5 justify-content-center">
@@ -214,7 +213,6 @@
             </div>
         </div>
     </section>
-
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed">
         <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
@@ -229,16 +227,59 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal1Label">Ramo de
-                                    golosinas básico</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal1Label">
+                                    Ramo de
+                                    golosinas básico</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto1.png"
-                                    alt="" /><br>
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto1.png"
+                                    alt="ramo básico" /><br>
+                                <!-- Portfolio Modal - Text-->
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>2 Alfajores</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>2 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>4 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>3 Bon o Bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>2 Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Y más!!</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -258,16 +299,59 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal2Label">Especial
-                                    Día del niño</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal5Label">
+                                    Ramo de
+                                    golosinas Medio</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto2.png"
-                                    alt="" /><br>
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto2.png"
+                                    alt="ramo medio" />
+                                <!-- Portfolio Modal - Text-->
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>2 Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>2 Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>2 Alfajores</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>4 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>8 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>4 Bon o Bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>2 Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Podes elegir otro color de diseño!!</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -287,19 +371,54 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal3Label">Diseño
-                                    Mickey</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal2Label">
+                                    Especial
+                                    Día del niño</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto3.png" alt="" />
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto3.png"
+                                    alt="caja niño" /><br>
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Más de 30 barritas kínder • Sugus confitados • 2 alfajores • Bon o bon •
-                                    Marroc<br>Y más cosas‼️
-                                </p>
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>2 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>2 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>Bon o Bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Y más!!</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -319,19 +438,49 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal4Label">
-                                    Diseño en Círculo</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal3Label">
+                                    Diseño
+                                    Mickey</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto4.png" alt="" />
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto4.png"
+                                    alt="diseño Mickey" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">15 barritas kínder • Sugus confitados • 1 alfajor • Marroc
-                                    Chupetines<br>Y más cosas‼️
-                                </p>
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/kinder.png" alt="kinder" width="100"
+                                            height="100">
+                                        <p>+ 30 barritas</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>2 Alfajores</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>Bon o bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>Marroc</p>
+                                    </div>
+                                </div>
+                                <h6>Y más cosas‼️</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -351,19 +500,43 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal5Label">Ramo de
-                                    golosinas Medio</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal4Label">
+                                    Diseño en Círculo</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto5.png" alt="" />
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto5.png"
+                                    alt="diseño circulo" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">2 alfajores • 2 Sugus confitados • 8 chupetines • 4 Bon o bon • 4 marroc
-                                    • 2 Nugaton • 2 Rocklets<br>Podes elegir otro color de diseño!!
-                                </p>
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/kinder.png" alt="kinder" width="100"
+                                            height="100">
+                                        <p>15 barritas</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>Alfajor</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>Marroc</p>
+                                    </div>
+                                </div>
+                                <h6>Y más cosas‼️</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -383,16 +556,58 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal6Label">
-                                    Ramo de golosinas básico</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal6Label">
+                                    Cajita dulce ✨<br>SÚPER ECONOMICA‼️</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto6.png"
-                                    alt="" /><br>
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto6.png"
+                                    alt="caja económica" /><br>
+                                <!-- Portfolio Modal - Text-->
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>Afajor</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>Bon o bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>2 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>3 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Y más cosas‼️</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -412,19 +627,58 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal7Label">
-                                    Caja Explosiva ✨<br>Diseño de 101 Dálmatas</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal7Label">
+                                    Caja Explosiva ✨<br>Diseño de 101 Dálmatas</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto7.png" alt="" />
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto7.png"
+                                    alt="caja explosiva" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">4 chupetines • 1 nugaton • 1 Rocklets • 1 Sugus confitados • 2 Bon o bon
-                                    • 2 marroc • 1 alfajor jorgito<br>Consultá por otros diseños
-                                </p>
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>Alfajor</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>2 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>4 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>2 Bon o Bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Podes elegir otro color de diseño!!</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -444,19 +698,58 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center rounded">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-uppercase mb-5" id="portfolioModal8Label">
-                                    ✨Caja Explosiva<br>Diseño Marie Aristogatos</h2>
+                                <h3 class="portfolio-modal-title text-uppercase mb-3 mt-3" id="portfolioModal8Label">
+                                    ✨Caja Explosiva<br>Diseño Marie Aristogatos</h3>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/producto8.png" alt="" />
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/producto8.png"
+                                    alt="caja explosiva" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">4 chupetines • 1 nugaton • 1 Rocklets • 1 Sugus confitados • 2 Bon o bon
-                                    • 2 marroc • 1 alfajor jorgito<br>Consultá por otros diseños
-                                </p>
+                                <h3 class="mb-3">Contiene</h3>
+                                <!-- descripcion -->
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <img src="assets/img/golosinas/roklets.png" alt="rocklets" width="100"
+                                            height="100">
+                                        <p>Rocklets</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/sugus.png" alt="sugus" width="100" height="100">
+                                        <p>Sugus confitados</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/alfajor.png" alt="alfajor" width="100"
+                                            height="100">
+                                        <p>Alfajor</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/marroc.png" alt="marroc" width="100"
+                                            height="100">
+                                        <p>2 Marroc</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/chupetines.png" alt="chupetines" width="100"
+                                            height="100">
+                                        <p>4 Chupetines</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/bonobon.png" alt="bon o bon" width="100"
+                                            height="100">
+                                        <p>2 Bon o Bon</p>
+                                    </div>
+                                    <div class="ml-3">
+                                        <img src="assets/img/golosinas/nugaton.png" alt="nugaton" width="100"
+                                            height="100">
+                                        <p>Nugaton</p>
+                                    </div>
+                                </div>
+                                <h6>Podes elegir otro color de diseño!!</h6>
+                                <!-- precio y boton de pago -->
+                                <h2 class="mb-3 mt-3">$100</h2>
                                 <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                     data-preference-id="65646429-20b13cdd-2628-4352-9804-d4369301a50f"
                                     data-button-label="Comprar">
@@ -468,7 +761,6 @@
             </div>
         </div>
     </div>
-
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
