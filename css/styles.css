@@ -94,9 +94,15 @@ nav {
     text-transform: uppercase;
 }
 /***** CONTACTO *****/
+#contact {
+    background-color: var(--fondo);
+}
 #contact h2 {
     font-size: 24px;
+    color: var(--accent);
 }
+
+/*
 .bg-footer {
     width: auto;
     height: auto;
@@ -108,12 +114,15 @@ nav {
     align-items: center;
     background-color: var(--accent-transparent);
 }
+*/
+/*
 #contact {
     background-image: url("../assets/img/backgroundfooter.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+*/
 /***** ANIMACIONES *****/
 @keyframes salto {
     0% {

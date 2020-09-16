@@ -2864,8 +2864,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #fff;
-  border-color: #fff;
+  color: var(--accent);
+  border-color: var(--accent);
 }
 .btn-outline-light:hover {
   color: #fff;
